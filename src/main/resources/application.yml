@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+
+server:
+  servlet:
+    context-path: /api/v1
+    
+jwt:
+  secret: PasswordUsedForPasswordEncoder
+  expiration: 86400000    
